@@ -1,7 +1,8 @@
 ## Description
 
-CLI typescript app
-fetch & write data to .json file
+REST-API Express.js and typeORM
+
+tree structure data
 
 ## Installation
 
@@ -9,16 +10,17 @@ fetch & write data to .json file
 $ npm install
 ```
 
+## env
+
+```
+cp .env.example .env
+```
+
 ## Running the app
 
 ```bash
 # development
-$ npm run dev -- -o filename -p // save all projects
-or
-$ npm run dev -- -o filename -p 1 2 3 <projects ids>...
-
-
-
+$ npm run dev
 
 # watch mode
 $ npm run start:dev
@@ -30,4 +32,6 @@ $ npm run start:prod
 
 ### important
 
-setup TOKEN value in .env
+need to create database
+
+- CREATE DATABASE `test`
